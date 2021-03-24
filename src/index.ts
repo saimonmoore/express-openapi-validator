@@ -15,6 +15,7 @@ import {
 } from './framework/types';
 
 // export default openapiValidator;
+export { OpenApiSpecLoader };
 export const resolvers = res;
 export const middleware = openapiValidator;
 export const error = {
