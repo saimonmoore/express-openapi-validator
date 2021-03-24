@@ -23,6 +23,7 @@ import { BasePath } from './framework/base.path';
 import { defaultResolver } from './resolvers';
 import { OperationHandlerOptions } from './framework/types';
 
+export { OpenApiSpecLoader };
 export {
   InternalServerError,
   UnsupportedMediaType,
